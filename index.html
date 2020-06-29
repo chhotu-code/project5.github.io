@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task18</title>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		body{
+			width: 100%;
+			height: 200vh;
+			background-size: 100%;
+			background-color: brown;
+		}
+		.logo{
+			width: 220px;
+			height: 200px;
+		}
+		header{
+			width: 95%;
+			height: 200px;
+			background: white;
+			margin-left: 50px;
+		}
+		nav{
+			display: flex;
+			justify-content: space-around;
+			text-decoration: none;
+			position: absolute;
+			text-align: center;
+		}
+		.a{
+			width: 150px;
+			height: 200px;
+			margin-top: -200px;
+			margin-left: 325px;
+			font-size: 30px;
+			background:pink;
+			text-transform: uppercase;
+		}
+	  .b{
+			width: 150px;
+			height: 200px;
+			margin-top: -200px;
+			margin-left:2px;
+			font-size: 30px;
+			background:aqua;
+			text-transform: uppercase;
+		}
+		.c{
+			width: 230px;
+			height: 200px;
+			margin-top: -200px;
+			margin-left:2px;
+			font-size: 30px;
+			text-transform: uppercase;
+			background:aqua;
+		}
+		.d{
+			width: 150px;
+			height: 200px;
+			margin-top: -200px;
+			margin-left:2px;
+			font-size: 30px;
+			text-transform: uppercase;
+			background:aqua;
+		}
+		.e{
+			width: 160px;
+			height: 200px;
+			margin-top: -200px;
+			margin-left:2px;
+			font-size: 30px;
+			text-transform: uppercase;
+			background:aqua;
+		}
+		.f{
+			width: 285px;
+			height: 200px;
+		    margin-top: -200px;
+			margin-left:2px;
+			
+		}
+		h6{
+			font-size: 22px;
+            color: black;
+            margin-left: -110px;
+		}
+		h1{
+			font-size: 200px;
+			color: lime;
+			margin-left: 100px;
+		}
+		button{
+			font-size: 50px;
+			margin-left: 500px;
+			border-radius: 30px;
+		}
+		.pic{
+			width: 500px;
+			margin-left: 900px;
+			position: absolute;
+		}
+		
+		.box1{
+			width: 400px;
+			height: 200px;
+			border-radius: 20px 20px 20px 20px;
+			margin-top: 150px;
+			margin-left: 90px;
+			background: red;
+		}
+		.box2{
+			width: 400px;
+			height: 200px;
+			border-radius: 20px 20px 20px 20px;
+			margin-top: -140px;
+			margin-left: 470px;
+			background: red;
+		
+		}
+		.box3{
+			width: 400px;
+			height: 200px;
+			border-radius: 20px 20px 20px 20px;
+			margin-top: -130px;
+			margin-left: 480px;
+			background: red;
+		   
+		}
+		h2{
+			color: white;
+			font-size: 35px;
+			font-weight: bold;
+			margin-left: 50px;
+			font-family: 'Pacifico', cursive;
+		}
+		p{
+			margin-top: -20px;
+			font-size: 20px;
+			color: orange;
+			margin-left: 30px;
+		}
+		.box1 .box2 .box3{
+			float: left;
+		     width: 400px;
+			
+		}
+		.box1-1{
+			width: 400px;
+			height: 40px;
+			margin-top: 35px;
+			background: orange;
+			border-radius: 20px 20px 20px 20px;
+			position: absolute;
+		}
+		.box1-2{
+			width: 400px;
+			height: 40px;
+			margin-top: 35px;
+			background: orange;
+			border-radius: 20px 20px 20px 20px;
+			position: absolute;
+		}
+		.box1-3{
+			width: 400px;
+			height: 40px;
+			margin-top: 35px;
+			background: orange;
+			border-radius: 20px 20px 20px 20px;
+			position: absolute;
+		}
+		h3{
+			color: white;
+			text-transform: uppercase;
+			font-size: 25px;
+			margin-left: 130px;
+			position: absolute;
+		}
+		.sweet1{
+			
+		     position: absolute;
+			 margin-top: 10px;
+			 margin-left: -20px;
+		}
+		.sweet2{
+			position: absolute;
+			 margin-top: 10px;
+			 margin-left: -20px;
+		}
+		h4{
+			color: white;
+            margin-left: 70px;
+			font-size: 20px;
+			position: absolute;
+			margin-top: -50px;
+		}
+		ul{
+			margin-left: 80px;
+			font-size: 20px;
+			color: orange;
+		}
+		.text1{
+			margin-top: -100px;
+			margin-left: 310px;
+			position: absolute;
+		}
+		
+		.text2{
+			margin-top: -100px;
+			margin-left:670px;
+			position: absolute;
+		}
+		.number{
+			margin-top: -150px;
+			margin-left: 1100px;
+			position: absolute;
+		}
+		h5{
+			font-size: 50px;
+			color: orange;
+			
+		}
+		.last{
+			width: 95%;
+			height: 50px;
+			background:green;
+			position: absolute;
+			margin-left: 50px;
+		}
+		.last h6{
+			font-size: 15px;
+			margin-top: 20px;
+			margin-left: 50px;
+			color: orange;
+		}
+		.last span{
+			margin-left: 250px;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+	   <div class="logo">
+	   	<img src="logo1-removebg-preview.png" style="height: 200px; width: 325px; background: pink;">
+	   </div>
+	   <nav>
+	   	<div class="a">
+	   	<a style="margin-top: 100px;position: absolute; margin-left: -40px; " href="#">home</a></div>
+	   	<dir class="b">
+	   	<a style="margin-top: 100px;position: absolute; margin-left: -60px; color: blue;" href="#">cookies</a></dir>
+	   	<div class="c">
+	   	<a style="margin-top: 100px;position: absolute; margin-left: -105px; color: blue;" href="#">assortments</a></div>
+	   	<div class="d">
+	   	<a style="margin-top: 100px;position: absolute; margin-left: -50px; color: blue;" href="#">about</a></div>
+	   	<div class="e">
+	   	<a style="margin-top: 100px;position: absolute; margin-left: -70px; color: blue;" href="#">contant</a></div>
+	   	<div class="f"><br><br>
+	   		<p style="font-size: 23px; margin-left: -10px;">Press & Reviews  |  shipping</p><br><br>
+	   		<a style="font-size: 23px; color: black;" href="#"><b>Login</b></a><b style="font-size: 20px; color: black;">  or  </b><a style="font-size: 23px; color: black;" href="#"><b>creat an Account</b></a>
+	   		<h6><u><b>Subtotle:$0.00</b></u></h6>
+	   	</div>
+	   </nav>
+
+</header><br><br>
+<section>
+<img class="pic" src="cookis.png">
+<h1>yummy.</h1>
+<button>shop now &#8618</button>
+<div class="box1">
+	<h2>say something special</h2><br><br>
+	<p>"congralutation" Miss you","get well",<br>or "I'm sorry",it all soounds sweeter when <br>you say it with our freshly breaked cookies.</p>
+	<div class="box1-1">
+		<h3>send a Gift Box</h3><span style='font-size:50px;background:white; border-radius:50%; margin-left: 365px; '>&#8620;</span></div>
+	<div class="sweet">
+		<img src="Sweets-PNG-Picture.png" style="width: 170px; height: 150px; position: absolute; margin-top: 20px;margin-left: -40px;">
+	</div>
+
+<div class="box2">
+	<h2>custom assortments</h2>
+	<p style="margin-top: 10px;">choose any 2,3 or 4 of our dozen<br>delicious flavors to make the perfect<br>assortment for any occasion.</p>
+	<div class="box1-2"><h3>creat your OWN</h3><span style='font-size:50px;background:white; border-radius:50%; margin-left: 365px; '>&#8620;</span></div>
+	<div class="sweet1">
+		<img src="http://www.pngall.com/wp-content/uploads/2016/07/Sweets-Free-Download-PNG.png" style=" width:170px; height: 170px;">
+	</div>
+
+<div class="box3">
+	<h2>come and visit us</h2>
+	<p style="margin-top: 10px;">visit us at the historic Reading Terminal<br> Market. You can even try our special<br>chocolate-dippend chocolate Chip cookies!</p>
+	<div class="box1-3"><h3 style="margin-left: 115px;">Where to Find us</h3><span style='font-size:50px;background:white; border-radius:50%; margin-left: 365px; '>&#8620;</span></div>
+	<div class="sweet2">
+		<img src="reading1.png" style="width: 200px;
+			height: 200px; ">
+	</div>
+</div>
+</div>
+</div>
+</section>
+ <div style="width: 90%; margin-left: 80px;margin-top: 250px; color: green; border-bottom:4px dotted green;"></div>   
+<br><br><br><br><br><br>
+ <head>
+ 	<div class="text">
+ 		<h4>Popluar Cookies:</h4>
+ 		<ul>
+ 		    <li>chocolate Chip Cookies</li>	
+ 		    <li>Peanut butter cookies</li>	
+ 		    <li>chocolate macadamia Nut Cookies</li>	
+ 		    <li>Butter Almand Cookies</li>	
+ 		   </ul>
+ 	</div>
+   <div class="text1">
+   	<h4>Staff Favorites:</h4>
+ 		<ul>
+ 		    <li>Peanut Butter Chocolate Chip Cookies</li>	
+ 		    <li>While Chocolate Macadamia Nut cookies</li>	
+ 		    <li>Snickerdoodle Cookies</li>	
+ 		    <li>Suger Cookies</li>	
+ 		   </ul>
+   </div>
+   <div class="text2">
+   	<h4>Popular Assortments:</h4>
+ 		<ul>
+ 		    <li>Chip Champs Assortment</li>	
+ 		    <li>Chocolate Lovers Assortment</li>	
+ 		    <li>Barch of Nuts Assortment</li>	
+ 		    <li>American Classics Assortment</li>	
+ 		   </ul>
+   </div>
+ </head>   
+ <div class="number">
+ 	<h5>order by phone</h5>
+ 	<img src="" >
+ 	
+ 	<h6 style="margin-left: 10px; color: white;font-size: 70px; position: absolute;">9693524900</h6>
+ </div><br><br>
+<div class="last">
+	<h6>@2000 The Famous 4th Street Cookies Company @ | Cookies | Assortments | About | contant | Shipping | press & reviews | Team & condition | privacy policy <span>website by chhotu</span></h6>
+</div>
+</body>
+</html>
